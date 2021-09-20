@@ -14,6 +14,8 @@
 
 /* tag body */
 
+/* tag allineamenti */
+
 .clearflix{
     margin: 1.6% 10.8% 2.2% 11.7%;
     height: 760px;
@@ -27,24 +29,21 @@
     margin-left: 67.8%;
 }
 
+/* tag immagine */
+
 .foto{
-    background-color: blue;
     width: 475px;
     height: 690px;
     float: left;
     position: relative;
 }
 
-.info{
-    width: 475px;
-    height: 70px;
-    margin: -4px 0;
-}
-
 img{
     width: 475px;
     height: 690px;
 }
+
+/* tag absolute */
 
 .cuore{
     position: absolute;
@@ -86,8 +85,12 @@ img{
     width: 90px;
 }
 
+/* tag informazioni */
+
 .info{
-    margin-top: 6px;
+    width: 475px;
+    height: 70px;
+    margin-top: 4px;
 }
 
 .marca{
@@ -105,4 +108,23 @@ h2{
 
 .sconto{
     text-decoration: line-through;
+}
+
+
+/* hover immagini */
+
+.img1{
+    display: block;
+}
+
+.img2{
+    display: none;
+}
+
+#cambio.immagine:hover .img1{
+    display: none;
+}
+
+#cambio.immagine:hover .img2{
+    display: block;
 }
