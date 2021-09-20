@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: arial;
 }
 
 .clearflix::after{
@@ -27,14 +28,15 @@
     margin-left: 67.8%;
 }
 
-.sopra{
+.foto{
     background-color: blue;
     width: 475px;
     height: 690px;
     float: left;
+    position: relative;
 }
 
-.sotto{
+.info{
     width: 475px;
     height: 70px;
     background-color: green;
@@ -44,4 +46,44 @@
 img{
     width: 475px;
     height: 690px;
+}
+
+.cuore{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    top: 20px ;
+    right: 0;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.rosso{
+    position: absolute;
+    background-color: rgb(231, 5, 5);
+    height: 25px;
+    width: 42px;
+    bottom: 20px;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.verde{
+    position: absolute;
+    background-color: green;
+    height: 25px;
+    width: 90px;
+    color: white;
+    bottom: 20px;
+    left: 46px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
 }
