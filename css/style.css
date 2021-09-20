@@ -121,10 +121,10 @@ h2{
     display: none;
 }
 
-#cambio.immagine:hover .img1{
+.cambio_immagine:hover .img1{
     display: none;
 }
 
-#cambio.immagine:hover .img2{
+.cambio_immagine:hover .img2{
     display: block;
 }
