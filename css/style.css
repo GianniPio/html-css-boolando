@@ -15,7 +15,6 @@
 
 .clearflix{
     margin: 1.6% 10.8% 2.2% 11.7%;
-    border: 1px solid black;
     height: 760px;
     background-color: red;
 }
@@ -25,11 +24,10 @@
 }
 
 .destra{
-    margin-left: 67.7%;
+    margin-left: 67.8%;
 }
 
 .sopra{
-    border: 1px solid black;
     background-color: blue;
     width: 475px;
     height: 690px;
@@ -40,6 +38,10 @@
     width: 475px;
     height: 70px;
     background-color: green;
-    margin-top: 687px;
-    margin-left: -1px;
+    margin: -4px 0;
+}
+
+img{
+    width: 475px;
+    height: 690px;
 }
